@@ -1,0 +1,8 @@
+<script>
+const x = document.getElementById("result");
+if(typeof(Worker) !== "undefined") {
+  x.innerHTML = "Your browser support Web Workers!";
+} else {
+  x.innerHTML = "Sorry, your browser does not support Web Workers.";
+}
+</script>

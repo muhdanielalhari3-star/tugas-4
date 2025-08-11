@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Daniel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0d0d1a, #2b0056);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 900px;
+            display: flex;
+            gap: 30px;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.4);
+        }
+
+        .card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid #ff00ff;
+            object-fit: cover;
+        }
+
+        .info h1 {
+            font-size: 2.5rem;
+            color: #ff00ff;
+        }
+
+        .info h3 {
+            font-weight: 400;
+            color: #ccc;
+            margin-top: -10px;
+        }
+
+        .info p {
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .highlight {
+            color: #00ffff;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="circular_image.png" alt="Foto Daniel">
+            <div class="info">
+                <h1>Muh. Daniel A.</h1>
+                <h3>Web Designer & Frontend Developer</h3>
+                <p>
+                    Halo! Saya <span class="highlight">Daniel</span>, seorang pelajar RPL yang tertarik dalam dunia 
+                    desain web dan pengembangan frontend. Saya memiliki passion untuk menciptakan 
+                    desain yang <span class="highlight">elegan</span>, modern, dan responsif.
+                </p>
+                <p>
+                    <b>📅 Tanggal Lahir:</b> 21 Juli 2008<br>
+                    <b>📍 Alamat:</b> Jember, Jawa Timur<br>
+                    <b>📧 Email:</b> muhdanielalhari@gmail.com
+                </p>
+                <a href="#" class="btn">Hubungi Saya</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
